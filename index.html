@@ -1,0 +1,450 @@
+
+<!DOCTYPE html>
+<html lang="en"><!--<![endif]-->
+<head>
+    <title>ChezNous</title>
+    <meta charset="utf-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Animate.css-->
+    <link href="css/animate.css" media="screen" rel="stylesheet">
+    <!--PrettyPhoto-->
+    <link href="css/prettyPhoto.css" media="screen" rel="stylesheet">
+    <!--FontAwesome-->
+    <link href="css/font-awesome.css" media="screen" rel="stylesheet">
+    <!--DateTime Picker-->
+    <link href="css/jquery.datetimepicker.css" media="screen" rel="stylesheet">
+    <!-- Mobile menu (mmenu) -->
+    <link rel="stylesheet" href="css/jquery.mmenu.all.css"/>
+    <!-- Style CSS -->
+    <link href="css/bootstrap.css" media="screen" rel="stylesheet">
+    <link href="css/style.css" media="screen" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Modernizr Library -->
+    <script src="js/lib/modernizr.min.js"></script>
+</head>
+<body><!-- Loading Spinner -->
+<div class="spinner">
+    <div class="line1"></div>
+    <div class="line2"></div>
+    <div class="line3"></div>
+    <div class="line4"></div>
+</div>
+<!--/ Loading Spinner -->
+<div id="page" class="hfeed site invisible">
+    <header class="fly-header-site fly-header-type-1 fly-sticky-header-on">
+        <div class="fly-nav-wrap fly-nav-left">
+            <nav class="fly-site-navigation primary-navigation" id="fly-menu-primary">
+                <ul class="fly-nav-menu">
+                    <li><a href="./">집</a></li>
+                    <li><a href="menu.html">메뉴</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!--Logo-->
+        <div class="fly-wrap-logo"><a class="fly-logo" href="./"> <img src="images/logo1.png" alt="Logo"/> </a></div>
+        <div class="fly-nav-wrap fly-nav-right">
+            <nav class="fly-site-navigation secondary-navigation" id="fly-menu-secondary">
+                <ul class="fly-nav-menu">
+                    <li><a href="reservation.html">연약</a></li>
+                    <li class="menu-item-has-children"><a href="contact.html">연락처</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="main" class="site-main" role="main">
+        <!--Slider Full-->
+        <section class="fly-slider-full">
+            <div class="main-carousel default">
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <!-- Carousel items -->
+                        <div class="item active parallax" style="background-image:url(images/Home-Slider/slide-1.jpg);">
+                            <div class="container">
+                                <div class="fly-itable">
+                                    <div class="fly-icell">
+                                        <div class="fly-wrap-text-slider">
+                                            <h1 class="fly-slider-title-before">HOMESTYLE<br>EUROPEAN COOKING</h1>
+                                            <div class="fly-slider-divider"></div>
+                                            <h2 class="fly-slider-title-after">Delicious, beverages and great-tasting food.<br>The secret to making life better.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel items -->
+                        <div class="item parallax" style="background-image:url(images/Home-Slider/slide-2.jpg);">
+                            <div class="container">
+                                <div class="fly-itable">
+                                    <div class="fly-icell">
+                                        <div class="fly-wrap-text-slider">
+                                            <h1 class="fly-slider-title-before">GATHER WITH FAMILY &<br>GREAT FOOD</h1>
+                                            <div class="fly-slider-divider"></div>
+                                            <h2 class="fly-slider-title-after">Delicious, beverages and great-tasting food.<br>The secret to making life better.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Carousel items -->
+                        <div class="item parallax" style="background-image:url(images/Home-Slider/slide-3.jpg);">
+                            <div class="container">
+                                <div class="fly-itable">
+                                    <div class="fly-icell">
+                                        <div class="fly-wrap-text-slider">
+                                            <h1 class="fly-slider-title-before">LOCALLY SOURCED<br>PRODUCE</h1>
+                                            <div class="fly-slider-divider"></div>
+                                            <h2 class="fly-slider-title-after">Delicious, beverages and great-tasting food.<br>The secret to making life better.</h2>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Carousel Indicator-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+        <!--End Slider Full-->
+        <!--Restaurant Menu (HomePage)-->
+        <section class="fly-restaurant-menu">
+            <!--Food-->
+            <div class="fly-menu-category col-sm-4 col-md-4 col-xs-12">
+                <div class="fly-menu-image-array" data-time-change="3000">
+                    <!-- Image Size (Recommended 700px x 360px "Heights images be equal") -->
+                    <img src="images/Home-restaurant-menu/food/7.jpg" alt="Food 7" class="active-image"/>
+                    <img src="images/Home-restaurant-menu/food/1.jpg" alt="Food 1"/>
+                    <img src="images/Home-restaurant-menu/food/2.jpg" alt="Food 2"/>
+                    <img src="images/Home-restaurant-menu/food/3.jpg" alt="Food 3"/>
+                    <img src="images/Home-restaurant-menu/food/4.jpg" alt="Food 4"/>
+                    <img src="images/Home-restaurant-menu/food/5.jpg" alt="Food 5"/>
+                    <img src="images/Home-restaurant-menu/food/6.jpg" alt="Food 6"/>
+                </div>
+                <div class="fly-menu-content">
+                    <div class="fly-itable">
+                        <div class="fly-icell"><i class="fa fa-cutlery"></i>
+                            <h3 class="fly-title-menu">FOOD</h3>
+                            <a href="#" class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"><span>More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Desert-->
+            <div class="fly-menu-category col-sm-4 col-md-4 col-xs-12">
+                <div class="fly-menu-image-array" data-time-change="3000">
+                    <!-- Image Size (Recommended 700px x 360px "Heights images be equal") -->
+                    <img src="images/Home-restaurant-menu/desert/7.jpg" alt="Desert 7" class="active-image"/>
+                    <img src="images/Home-restaurant-menu/desert/1.jpg" alt="Desert 1"/>
+                    <img src="images/Home-restaurant-menu/desert/2.jpg" alt="Desert 2"/>
+                    <img src="images/Home-restaurant-menu/desert/3.jpg" alt="Desert 3"/>
+                    <img src="images/Home-restaurant-menu/desert/4.jpg" alt="Desert 4"/>
+                    <img src="images/Home-restaurant-menu/desert/5.jpg" alt="Desert 5"/>
+                    <img src="images/Home-restaurant-menu/desert/6.jpg" alt="Desert 6"/>
+                </div>
+                <div class="fly-menu-content">
+                    <div class="fly-itable">
+                        <div class="fly-icell"><i class="fa fa-coffee"></i>
+                            <h3 class="fly-title-menu">DESSERT</h3>
+                            <a href="#" class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"><span>More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Drinks-->
+            <div class="fly-menu-category col-sm-4 col-md-4 col-xs-12">
+                <div class="fly-menu-image-array" data-time-change="3000">
+                    <!-- Image Size (Recommended 700px x 360px "Heights images be equal") -->
+                    <img src="images/Home-restaurant-menu/drinks/7.jpg" alt="Drinks 7" class="active-image"/>
+                    <img src="images/Home-restaurant-menu/drinks/1.jpg" alt="Drinks 1"/>
+                    <img src="images/Home-restaurant-menu/drinks/2.jpg" alt="Drinks 2"/>
+                    <img src="images/Home-restaurant-menu/drinks/3.jpg" alt="Drinks 3"/>
+                    <img src="images/Home-restaurant-menu/drinks/4.jpg" alt="Drinks 4"/>
+                    <img src="images/Home-restaurant-menu/drinks/5.jpg" alt="Drinks 5"/>
+                    <img src="images/Home-restaurant-menu/drinks/6.jpg" alt="Drinks 6"/>
+                </div>
+                <div class="fly-menu-content">
+                    <div class="fly-itable">
+                        <div class="fly-icell"><i class="fa fa-home"></i>
+                            <h3 class="fly-title-menu">AMBIANCE</h3>
+                            <a href="#" class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-3"><span>More</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End Restaurant Menu (HomePage)-->        <!--Section (Info Restaurant)-->
+        <section class="fly-info-box container-min">
+            <div class="container">
+                <div class="row">
+                    <div class="fly-divider-space space-md"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="fly-info-box-header">
+                            <i class="fly-info-box-icon flyicon-coffee"></i>
+                            <h3 class="fly-info-box-title">FEW WORDS ABOUT US</h3>
+                            <div class="fly-info-box-divider"></div>
+                        </div>
+                        <div class="fly-info-box-content"> A charming neighbourhood restaurant, located in the
+                            heart of the chungpyeong; a true gateway to gourmet farm-to-table dining, inspired by seasonal
+                            produce and the province's local suppliers.
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="fly-divider-space space-md"></div>
+                </div>
+            </div>
+        </section>
+        <!--End Section (Info Restaurant)-->
+
+        <!--Section Home Gallery-->
+        <section class="fly-home-gallery">
+            <!--Home Gallery Col1-->
+            <div class="fly-home-gallery-col col-sm-4">
+                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('images/Home-Gallery/image-1.jpg')">
+                    <a href="images/Home-Gallery/image-1.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
+                        <div class="fly-itable">
+                            <div class="fly-icell">
+                                <i class="flyicon-expand"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('images/Home-Gallery/image-2.jpg')">
+                    <a href="images/Home-Gallery/image-2.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
+                        <div class="fly-itable">
+                            <div class="fly-icell">
+                                <i class="flyicon-expand"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('images/Home-Gallery/image-3.jpg')">
+                    <a href="images/Home-Gallery/image-3.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
+                        <div class="fly-itable">
+                            <div class="fly-icell">
+                                <i class="flyicon-expand"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="fly-home-gallery-col col-sm-4">
+                <div class="fly-home-gallery-block-title fly-home-gallery-height-md">
+                    <div class="fly-itable">
+                        <div class="fly-icell">
+                            <h5 class="fly-home-gallery-before-title"><span>Some moments</span></h5>
+                            <h3 class="fly-home-gallery-title">FROM CHEZ NOUS</h3>
+                            <a class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-1" href="#">
+                                <span>All Photo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="fly-home-gallery-block fly-home-gallery-height-lg" style="background-image: url('images/Home-Gallery/image-4.jpg')">
+                    <a href="images/Home-Gallery/image-4.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
+                        <div class="fly-itable">
+                            <div class="fly-icell">
+                                <i class="flyicon-expand"></i>
+                            </div>
+                        </div>
+                    </a></div>
+            </div>
+            <div class="fly-home-gallery-col col-sm-4">
+                <div class="fly-home-gallery-block fly-home-gallery-height-lg" style="background-image: url('images/Home-Gallery/image-5.jpg')">
+                    <a href="images/Home-Gallery/image-5.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
+                        <div class="fly-itable">
+                            <div class="fly-icell">
+                                <i class="flyicon-expand"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="fly-home-gallery-block fly-home-gallery-height-md" style="background-image: url('images/Home-Gallery/image-6.jpg')">
+                    <a href="images/Home-Gallery/image-6.jpg" data-rel="prettyPhoto[1]" class="fly-home-gallery-overlay">
+                        <div class="fly-itable">
+                            <div class="fly-icell"><i class="flyicon-expand"></i></div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--End Section Home Gallery-->        <!--Section Testimonials-->
+        <section class="fly-wrap-testimonials-slider container-min">
+            <div class="container">
+                <div class="row">
+                    <div class="fly-divider-space space-md"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="fly-testimonials-slider"><h5 class="fly-testimonials-slider-before-title"><span>Warm Words</span>
+                        </h5>
+
+                            <h3 class="fly-testimonials-slider-title">FROM OUR CLIENTS</h3>
+                            <ul id="fly-testimonials-slider">
+                                <li data-special-offers-slider="1" class="container">
+                                    <div class="fly-testimonials-slider-author">
+                                        <span class="fly-testimonials-slider-author-image">
+                                            <!-- <img src="images/avatars/avatar-1.jpg" alt="Avatar 1"/> -->
+                                            <i class="fa fa-user testimonial-avatar"></i>
+                                        </span>
+                                        <a href="#" class="fly-testimonials-slider-author-name">Bryan Nylson</a>
+                                    </div>
+                                    <div class="fly-testimonials-slider-content"> When arriving in town, this is one of
+                                        the first stops for something interesting and amazing to eat. The menu has
+                                        choices for everyone and it is the kind of place you want to come back to. I
+                                        love the fish and chips there as well.
+                                    </div>
+                                </li>
+                                <li data-special-offers-slider="1" class="container">
+                                    <div class="fly-testimonials-slider-author">
+                                         <span class="fly-testimonials-slider-author-image">
+                                            <i class="fa fa-user testimonial-avatar"></i>
+                                        </span>
+                                        <a href="#" class="fly-testimonials-slider-author-name">Thomas Jefferson</a>
+                                    </div>
+                                    <div class="fly-testimonials-slider-content"> I wanted to write to say thank you for
+                                        an amazing experience and delicious dinner tonight. You made my baby daughter
+                                        and I feel very welcome! I look forward to coming back. Jenny was so wonderful
+                                        with my daughter too and had her laughing most of the night. Best regards,
+                                        Allison
+                                    </div>
+                                </li>
+                                <li data-special-offers-slider="1" class="container">
+                                    <div class="fly-testimonials-slider-author">
+                                         <span class="fly-testimonials-slider-author-image">
+                                            <i class="fa fa-user testimonial-avatar"></i>
+                                         </span>
+                                        <a href="#" class="fly-testimonials-slider-author-name">Lisa Petterson</a>
+                                    </div>
+                                    <div class="fly-testimonials-slider-content"> I just wanted to thank you for
+                                        providing a great birthday celebration for me. Your staff did an excellent job
+                                        and the food was superb. Everyone was impressed. I will recommend your expertise
+                                        to my friends for an event such as this. Thanks again!
+                                    </div>
+                                </li>
+                            </ul>
+                            <div id="fly-testimonials-slider-controls" class="fly-testimonials-slider-controls"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="fly-divider-space space-md"></div>
+                </div>
+            </div>
+        </section>
+        <!--End Section Testimonials-->
+        <!--Section Go To Top-->
+        <section class="fly-go-to-top fly-theme-color-4">
+            <div class="row">
+                <div class="fly-divider-space space-sm"></div>
+            </div>
+            <div class="row"><a class="fly-btn fly-btn-1 fly-btn-md fly-btn-color-2 fly-btn-to-top" href="#main"><span>TOP</span></a>
+            </div>
+            <div class="row">
+                <div class="fly-divider-space space-sm"></div>
+            </div>
+        </section>
+        <!--End Section Go To Top-->
+    </div>
+    <!--Footer-->
+    <footer class="fly-site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="fly-divider-space space-sm"></div>
+            </div>
+            <div class="row">
+                <div class="fly-footer-content clearfix">
+                    <aside class="widget widget-newsletter widget-newsletter-footer">
+                        <h4 class="widget-title-before">
+                            <i class="flyicon-mail2"></i> <span>connect</span>
+                        </h4>
+
+                        <h3 class="widget-title">SUBSCRIBE TO NEWSLETTER</h3>
+
+                        <form class="newsletter-form" action="#"><input type="email" class="newsletter-input" placeholder="please enter your email"/></form>
+                    </aside>
+                    <a class="fly-footer-logo" href="./"> <img src="images/logo1.png" alt="Footer Logo", class="logo-footer"/> </a>
+
+                    <div class="fly-footer-info"> Family Restaurant <br> Chungpyeong, Korea - phone
+                        <a href="callto:44 023 642 124">+44 023 642 124</a>
+                        <br>
+                        <span>Open: 11:00</span>
+                        <br>
+                        <span>Close: 12:00</span>
+                        <br>
+                        <span>Lunch: 11:00 - 15:00</span>
+                        <br>
+                        <span>Dinner: 17:00 - 22:00</span>
+                        <br>
+                        <span>Last Order: 20:00</span>
+                    </div>
+                    <div class="fly-social">
+                        <a class="fly-social-link" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a class="fly-social-link" href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a class="fly-social-link" href="#" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        <a class="fly-social-link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="fly-divider-space space-sm"></div>
+            </div>
+        </div>
+        <div class="fly-footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="fly-copyright-text"> ChezNous - European Homestyle Cooking
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-57606857-3', 'auto');
+    ga('send', 'pageview');
+
+</script>
+<!-- main JS libs  -->
+<script src="js/lib/jquery-1.11.3.min.js"></script>
+<script src="js/lib/bootstrap.min.js"></script>
+
+<!--[if lt IE 9]>
+<script src="js/lib/html5shiv.js"></script>
+<script src="js/lib/respond.min.js"></script>
+<![endif]-->
+
+<!-- Touch Swipe Plugin -->
+<script src="js/jquery.touchSwipe.min.js"></script>
+<!--CarouFredSel Plugin-->
+<script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+<!--Categories Slider-->
+<script src="js/jquery.prettyPhoto.js"></script>
+<!-- DateTime Picker -->
+<script src="js/jquery.datetimepicker.js"></script>
+<!-- Scroll To Top Button -->
+<script src="js/scrollTo.min.js"></script>
+<!-- Parallax -->
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<!-- Mobile menu (mmenu) -->
+<script src="js/jquery.mmenu.min.all.js"></script>
+<!--General JS-->
+<script src="js/general.js"></script>
+</body>
+</html>
