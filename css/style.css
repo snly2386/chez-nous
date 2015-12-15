@@ -731,6 +731,7 @@ p {
   letter-spacing: 2px;
   position: relative;
   padding-bottom: 20px;
+  font-size: 17px;
   /* DropDown Level 1 */
 }
 .fly-header-site .fly-site-navigation .fly-nav-menu li:first-child {
@@ -1313,9 +1314,11 @@ textarea:focus {
 .fly-slider-full .item .fly-wrap-text-slider .fly-slider-divider,
 .fly-slider-full .item .fly-wrap-text-slider .fly-slider-title-after {
   color: #ffffff;
+  font-family: 'raleway', cursive;
+
 }
 .fly-slider-full .item .fly-wrap-text-slider .fly-slider-title-before {
-  font-family: 'Lato', sans-serif;
+  font-family: 'raleway', cursive;
   font-size: 50.358px;
   line-height: 75.03342px;
   letter-spacing: 8px;

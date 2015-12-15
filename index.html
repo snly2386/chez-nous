@@ -7,8 +7,25 @@
     <meta name="author" content="">
     <meta name="keywords" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
     <!--Animate.css-->
     <link href="css/animate.css" media="screen" rel="stylesheet">
     <!--PrettyPhoto-->
@@ -23,6 +40,7 @@
     <link href="css/bootstrap.css" media="screen" rel="stylesheet">
     <link href="css/style.css" media="screen" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 
     <!-- Modernizr Library -->
     <script src="js/lib/modernizr.min.js"></script>
@@ -40,8 +58,8 @@
         <div class="fly-nav-wrap fly-nav-left">
             <nav class="fly-site-navigation primary-navigation" id="fly-menu-primary">
                 <ul class="fly-nav-menu">
-                    <li><a href="./">집</a></li>
-                    <li><a href="menu.html">메뉴</a></li>
+                    <li class="home-nav-item"><a href="./">홈</a></li>
+                    <li class="home-nav-item"><a href="menu.html">메뉴</a></li>
                 </ul>
             </nav>
         </div>
@@ -50,8 +68,8 @@
         <div class="fly-nav-wrap fly-nav-right">
             <nav class="fly-site-navigation secondary-navigation" id="fly-menu-secondary">
                 <ul class="fly-nav-menu">
-                    <li><a href="reservation.html">연약</a></li>
-                    <li class="menu-item-has-children"><a href="contact.html">연락처</a></li>
+                    <li class="home-nav-item"><a href="reservation.html">예약</a></li>
+                    <li class="menu-item-has-children home-nav-item"><a href="contact.html">연락처</a></li>
                 </ul>
             </nav>
         </div>
@@ -68,9 +86,9 @@
                                 <div class="fly-itable">
                                     <div class="fly-icell">
                                         <div class="fly-wrap-text-slider">
-                                            <h1 class="fly-slider-title-before">HOMESTYLE<br>EUROPEAN COOKING</h1>
-                                            <div class="fly-slider-divider"></div>
-                                            <h2 class="fly-slider-title-after">Delicious, beverages and great-tasting food.<br>The secret to making life better.</h2>
+                                            <h1 class="fly-slider-title-before homepage-title-text">유럽 가정식</h1>
+                                            <div class="fly-slider-divider homepage-title-text"></div>
+                                            <h2 class="fly-slider-title-after homepage-title-text"><em>쉐누</em>는 유럽 농가에서<br>맛볼 수 있는 따뜻한 집밥을 짓습니다.</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -82,9 +100,9 @@
                                 <div class="fly-itable">
                                     <div class="fly-icell">
                                         <div class="fly-wrap-text-slider">
-                                            <h1 class="fly-slider-title-before">GATHER WITH FAMILY &<br>GREAT FOOD</h1>
+                                            <h1 class="fly-slider-title-before">신선한 식재료로</h1>
                                             <div class="fly-slider-divider"></div>
-                                            <h2 class="fly-slider-title-after">Delicious, beverages and great-tasting food.<br>The secret to making life better.</h2>
+                                            <h2 class="fly-slider-title-after"><em>쉐누</em>는 우리 텃밭에서 <br>자라는 신선한 식재료로 요리를 합니다.</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -96,9 +114,9 @@
                                 <div class="fly-itable">
                                     <div class="fly-icell">
                                         <div class="fly-wrap-text-slider">
-                                            <h1 class="fly-slider-title-before">LOCALLY SOURCED<br>PRODUCE</h1>
+                                            <h1 class="fly-slider-title-before">쉐누에 초대합니다</h1>
                                             <div class="fly-slider-divider"></div>
-                                            <h2 class="fly-slider-title-after">Delicious, beverages and great-tasting food.<br>The secret to making life better.</h2>
+                                            <h2 class="fly-slider-title-after">우리집에 오셔서 허브들로 가득한 텃밭과 산양을 둘러보고 <br> 이국적 풍미가 느껴지는 유럽 가정식을 맛보고 <br> 별이 뜨는 다락방에 올라가 한가로운 쉼의 시간을 가지세요.</h2>
                                         </div>
                                     </div>
                                 </div>
@@ -191,12 +209,10 @@
                     <div class="col-sm-12">
                         <div class="fly-info-box-header">
                             <i class="fly-info-box-icon flyicon-coffee"></i>
-                            <h3 class="fly-info-box-title">A FEW WORDS ABOUT US</h3>
+                            <h3 class="fly-info-box-title">쉐누 이야기</h3>
                             <div class="fly-info-box-divider"></div>
                         </div>
-                        <div class="fly-info-box-content"> A charming neighbourhood restaurant, located in the
-                            heart of the chungpyeong; a true gateway to gourmet farm-to-table dining, inspired by seasonal
-                            produce and the province's local suppliers.
+                        <div class="fly-info-box-content"> 우리집에 오셔서 허브들로 가득한 텃밭과 산양을 둘러보고 이국적 풍미가 느껴지는 유럽 가정식을 맛보고 별이 뜨는 다락방에 올라가 한가로운 쉼의 시간을 가지세요.
                         </div>
                     </div>
                 </div>
@@ -298,12 +314,9 @@
                                             <!-- <img src="images/avatars/avatar-1.jpg" alt="Avatar 1"/> -->
                                             <i class="fa fa-user testimonial-avatar"></i>
                                         </span>
-                                        <a href="#" class="fly-testimonials-slider-author-name">Bryan Nylson</a>
+                                        <a href="#" class="fly-testimonials-slider-author-name">Shin Hangyeol</a>
                                     </div>
-                                    <div class="fly-testimonials-slider-content"> When arriving in town, this is one of
-                                        the first stops for something interesting and amazing to eat. The menu has
-                                        choices for everyone and it is the kind of place you want to come back to. I
-                                        love the fish and chips there as well.
+                                    <div class="fly-testimonials-slider-content"> This food is fuckin cray.  I had the ratoutille and it was all delicious and shit.
                                     </div>
                                 </li>
                                 <li data-special-offers-slider="1" class="container">
@@ -311,13 +324,9 @@
                                          <span class="fly-testimonials-slider-author-image">
                                             <i class="fa fa-user testimonial-avatar"></i>
                                         </span>
-                                        <a href="#" class="fly-testimonials-slider-author-name">Thomas Jefferson</a>
+                                        <a href="#" class="fly-testimonials-slider-author-name">Jina Coloun</a>
                                     </div>
-                                    <div class="fly-testimonials-slider-content"> I wanted to write to say thank you for
-                                        an amazing experience and delicious dinner tonight. You made my baby daughter
-                                        and I feel very welcome! I look forward to coming back. Jenny was so wonderful
-                                        with my daughter too and had her laughing most of the night. Best regards,
-                                        Allison
+                                    <div class="fly-testimonials-slider-content"> Chez Nous 4 life!!!!!
                                     </div>
                                 </li>
                                 <li data-special-offers-slider="1" class="container">
@@ -325,12 +334,9 @@
                                          <span class="fly-testimonials-slider-author-image">
                                             <i class="fa fa-user testimonial-avatar"></i>
                                          </span>
-                                        <a href="#" class="fly-testimonials-slider-author-name">Lisa Petterson</a>
+                                        <a href="#" class="fly-testimonials-slider-author-name">Chez Nous Goat</a>
                                     </div>
-                                    <div class="fly-testimonials-slider-content"> I just wanted to thank you for
-                                        providing a great birthday celebration for me. Your staff did an excellent job
-                                        and the food was superb. Everyone was impressed. I will recommend your expertise
-                                        to my friends for an event such as this. Thanks again!
+                                    <div class="fly-testimonials-slider-content"> I make milk for Chez Nous.  The staff is very nice.
                                     </div>
                                 </li>
                             </ul>
@@ -365,15 +371,6 @@
             </div>
             <div class="row">
                 <div class="fly-footer-content clearfix">
-                    <aside class="widget widget-newsletter widget-newsletter-footer">
-                        <h4 class="widget-title-before">
-                            <i class="flyicon-mail2"></i> <span>connect</span>
-                        </h4>
-
-                        <h3 class="widget-title">SUBSCRIBE TO NEWSLETTER</h3>
-
-                        <form class="newsletter-form" action="#"><input type="email" class="newsletter-input" placeholder="please enter your email"/></form>
-                    </aside>
                     <a class="fly-footer-logo" href="./"> <img src="images/logo1.png" alt="Footer Logo", class="logo-footer"/> </a>
 
                     <div class="fly-footer-info"> Family Restaurant <br> Chungpyeong, Korea - phone
@@ -446,5 +443,7 @@
 <script src="js/jquery.mmenu.min.all.js"></script>
 <!--General JS-->
 <script src="js/general.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
